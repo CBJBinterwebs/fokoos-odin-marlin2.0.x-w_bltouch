@@ -1,5 +1,6 @@
 # fokoos-odin-marlin2.0.x-w_bltouch
-The stock firmware for Fokoos Odin 5F3, but with BLTouch and different start screen
+The stock firmware for Fokoos Odin 5F3, but with BLTouch and different start screen.
+Update Nov 11, 2021:  Updated firmware to enable dual-z steppers.  This also enables use of G34 gcode to allow automatic alignment of z-steppers which aids in leveling the bed.  It outputs values to the terminal as well.
 
 # How to use:
 Remove previous firmware files from your microSD card.
