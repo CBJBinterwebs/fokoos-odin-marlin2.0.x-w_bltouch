@@ -18,5 +18,6 @@ Currently, the experimental branch has no new features and the experimental feat
 
 # Future updates:
 I plan to update more of the UI icons and customize the menus further, but I do not have a lot of free-time so expect this development to be slow.
+I would like to add the full directory and all the files so that others can see the changes and make their own if they so wish.  First, I need to clean-up the files and remove chunks of commented-out stuff from debugging.  So, for now just the .bin...
 
-If you are looking for a firmware for Fokoos Odin with BLTouch / 3DTouch then I hope you find this useful.  Thank you.
+If you are looking for a firmware for Fokoos Odin with BLTouch / 3DTouch then I hope you find this useful.  If you find bugs or have feature requests, please let me know.  Thank you.
