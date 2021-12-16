@@ -12,6 +12,8 @@ You should change them if you use a different mount (can be done via touchscreen
 I have a short video showing how to access the internals of the case so you can wire the touch-sensor:  https://youtu.be/l-Co34yshsM
 
 # Experimental Branch Notes:
+!! Currently, the experimental branch has no new features and the experimental features from it have been debugged and added to main branch.  You should use that.  !!
+
 -I removed the 'tramming assistant' until I can be sure of the correct parameters for the Odin machine.
 -I have enabled 'Z_MIN_PROBE_REPEATABILITY_TEST'.  This allows you to send 'M48' through console to the machine to guage the accuracy of your ABL probe.
 -The experimental branch adds some menu options that are absent in the stock menu.  For example, by default the firmware will give you either automatic leveling menu OR manual corner leveling menu.  In this firmware, I have enabled custom menu which allows for manual corner leveling to be added to the 'more' menu under 'tools'.  There are two options for manual corner leveling.  The first will pre-heat nozzle and bed and do an XYZ home before moving to first corner position.  The second does not pre-heat or home first.  Please note that there is a bug in the menu UI wherein the 1st corner icon will display as 'back' button until pressed.  Additionally, the menu will freeze and prompt the machine to reset when you select 'back' after you are finished leveling.  I have not found a solution to this yet and this may be why the stock firmware leaves manual leveling off if you have ABL enabled.
