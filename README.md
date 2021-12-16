@@ -1,6 +1,7 @@
 # fokoos-odin-marlin2.0.x-w_bltouch
 The stock firmware for Fokoos Odin 5F3, but with BLTouch and different start screen.
 Update Nov 11, 2021:  Updated firmware to enable dual-z steppers.  This also enables use of G34 gcode to allow automatic alignment of z-steppers which aids in leveling the bed.  It outputs values to the terminal as well.
+Update Dec 15, 2021:  Updated firmware to include two corner-leveling options in the 'more menu; these include manual corner leveling with and without homing axes first.  The temperature of the bed and nozzle are now displayed on many more screens.  Added 'z min probe repeatability test' (M48).  Added MKS Robin / tft / lvglui specific filament runout parameters.  Tried to test it with Octoprint, but it didn't detect the runout.  Will test soon on print from SD.
 
 # How to use:
 Remove previous firmware files from your microSD card.
@@ -13,11 +14,9 @@ You should change them if you use a different mount (can be done via touchscreen
 I have a short video showing how to access the internals of the case so you can wire the touch-sensor:  https://youtu.be/l-Co34yshsM
 
 # Experimental Branch Available:
-Go to the 'experimental' branch from the dropdown above to get new menu options such as manual corner leveling and temperature controls in the 'tool', 'move', and 'home' screens.
-This branch also removes 'tramming assistant' until more specific parameters can be input for it and enables 'z min probe repeatability test' for gaugeing accuracy of ABL probe (M48).
+Currently, the experimental branch has no new features and the experimental features from it have been debugged and added to main branch.
 
 # Future updates:
 I plan to update more of the UI icons and customize the menus further, but I do not have a lot of free-time so expect this development to be slow.
-Apparently the LVGLUI has some weirdness with Marlin and filament runout / resume after power loss.  I hope to find a way to improve the filament runout actions of the stock firmware.
 
 If you are looking for a firmware for Fokoos Odin with BLTouch / 3DTouch then I hope you find this useful.  Thank you.
