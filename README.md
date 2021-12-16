@@ -1,5 +1,6 @@
 # fokoos-odin-marlin2.0.x-w_bltouch
-The stock firmware for Fokoos Odin 5F3, but with BLTouch and different start screen
+The stock firmware for Fokoos Odin 5F3, but with BLTouch and different start screen.
+Update Nov 11, 2021:  Updated firmware to enable dual-z steppers.  This also enables use of G34 gcode to allow automatic alignment of z-steppers which aids in leveling the bed.  It outputs values to the terminal as well.
 
 # How to use:
 Remove previous firmware files from your microSD card.
@@ -10,6 +11,10 @@ The probe-to-nozzle X/Y offsets are based on this touch-sensor mount:  https://w
 You should change them if you use a different mount (can be done via touchscreen UI).  Additionally, you will want to set your own z-offset even if you are using the same mount as I am (again, this can be done in the touchscreen UI).
 
 I have a short video showing how to access the internals of the case so you can wire the touch-sensor:  https://youtu.be/l-Co34yshsM
+
+# Experimental Branch Available:
+Go to the 'experimental' branch from the dropdown above to get new menu options such as manual corner leveling and temperature controls in the 'tool', 'move', and 'home' screens.
+This branch also removes 'tramming assistant' until more specific parameters can be input for it and enables 'z min probe repeatability test' for gaugeing accuracy of ABL probe (M48).
 
 # Future updates:
 I plan to update more of the UI icons and customize the menus further, but I do not have a lot of free-time so expect this development to be slow.
