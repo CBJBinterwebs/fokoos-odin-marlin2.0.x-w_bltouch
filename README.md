@@ -5,8 +5,8 @@ Update Nov 11, 2021:  Updated firmware to enable dual-z steppers.  This also ena
 
 Update Dec 15, 2021:  Updated firmware to include two corner-leveling options in the 'more menu; these include manual corner leveling with and without homing axes first.  The temperature of the bed and nozzle are now displayed on many more screens.  Added 'z min probe repeatability test' (M48).  Added MKS Robin / tft / lvglui specific filament runout parameters.  Tried to test it with Octoprint, but it didn't detect the runout (I think Octoprint needs a seperate physical sensor).  Will test soon on print from SD.
 
-Update Mar 9, 2022:  -add emergency stop button on main screen to stop prints from octoprint when you dont have the time to pull-up the web ui
-	-change probe points in mesh grid from 6x6 to 5x5
+Update Mar 9, 2022:  -add emergency stop button on main screen to stop prints from octoprint when you dont have the time to pull-up the web ui <br>
+	-change probe points in mesh grid from 6x6 to 5x5 <br>
 	-increase homing/probing travel speed
 	-enable sw_mode for bltouch as rec. by ANTClabs
 	-enable HOTEND_IDLE_TIMEOUT: 10 mins no movement @ 150 degrees
