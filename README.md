@@ -7,16 +7,16 @@ Update Dec 15, 2021:  Updated firmware to include two corner-leveling options in
 
 Update Mar 9, 2022:  -add emergency stop button on main screen to stop prints from octoprint when you dont have the time to pull-up the web ui <br>
 	-change probe points in mesh grid from 6x6 to 5x5 <br>
-	-increase homing/probing travel speed
-	-enable sw_mode for bltouch as rec. by ANTClabs
-	-enable HOTEND_IDLE_TIMEOUT: 10 mins no movement @ 150 degrees
-	-disabled EXTRAPOLATE_BEYOND_GRID option in bed mesh settings
-	-change baud rate from 250000 to 125000 because that's what MKS have set in the config.h on their github for the robin nano marlin firmware
-	-enable PRINTCOUNTER: view print stats with M78; total jobs, total success, total fail, total time printing
-	-enable G26_MESH_VALIDATION: 0.4mm nozzle, 0.2mm layer height, 200C/60C temp, 25mm/s print travel
-	-enable MULTIPLE_PROBING: 2 does fast/slow probes with a weighted average
-	-discovered that you cannot enable advanced pause feature.  it causes random pauses
-	-added all project files so people can edit them as they please
+	-increase homing/probing travel speed <br>
+	-enable sw_mode for bltouch as rec. by ANTClabs <br>
+	-enable HOTEND_IDLE_TIMEOUT: 10 mins no movement @ 150 degrees <br>
+	-disabled EXTRAPOLATE_BEYOND_GRID option in bed mesh settings <br>
+	-change baud rate from 250000 to 125000 because that's what MKS have set in the config.h on their github for the robin nano marlin firmware <br>
+	-enable PRINTCOUNTER: view print stats with M78; total jobs, total success, total fail, total time printing <br>
+	-enable G26_MESH_VALIDATION: 0.4mm nozzle, 0.2mm layer height, 200C/60C temp, 25mm/s print travel <br>
+	-enable MULTIPLE_PROBING: 2 does fast/slow probes with a weighted average <br>
+	-discovered that you cannot enable advanced pause feature.  it causes random pauses <br>
+	-added all project files so people can edit them as they please <br>
 	-added two different pre-compiled firmware.  one with normal bed size, one with 230mm 'X' bed size because I was getting weirdness on the right edge of my bed meshes.  look in folder 'pre-compiled', with subfolders corresponding to desired bed size
 
 # How to use:
