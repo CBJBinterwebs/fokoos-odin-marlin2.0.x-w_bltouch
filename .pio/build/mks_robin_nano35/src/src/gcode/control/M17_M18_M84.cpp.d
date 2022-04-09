@@ -123,26 +123,7 @@
  Marlin\src\gcode\control\../../module/stepper.h \
  Marlin\src\gcode\control\../../module/planner.h \
  Marlin\src\gcode\control\../../module/../gcode/queue.h \
- Marlin\src\gcode\control\../../module/stepper/indirection.h \
- Marlin\src\gcode\control\../../module/stepper/trinamic.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/TMCStepper.h \
- Marlin\src\HAL\STM32F1/SPI.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/spi.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/spi.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h \
- .pio\libdeps\mks_robin_nano35\SoftwareSerialM/SoftwareSerial.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SERIAL_SWITCH.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC_platforms.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SW_SPI.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2130_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2160_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5130_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5160_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2208_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2209_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2660_bitfields.h \
- Marlin\src\gcode\control\../../module/stepper/../../feature/tmc_util.h
+ Marlin\src\gcode\control\../../module/stepper/indirection.h
 
 Marlin\src\gcode\control\../gcode.h:
 
@@ -391,41 +372,3 @@ Marlin\src\gcode\control\../../module/planner.h:
 Marlin\src\gcode\control\../../module/../gcode/queue.h:
 
 Marlin\src\gcode\control\../../module/stepper/indirection.h:
-
-Marlin\src\gcode\control\../../module/stepper/trinamic.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/TMCStepper.h:
-
-Marlin\src\HAL\STM32F1/SPI.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/spi.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/spi.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h:
-
-.pio\libdeps\mks_robin_nano35\SoftwareSerialM/SoftwareSerial.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SERIAL_SWITCH.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC_platforms.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SW_SPI.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2130_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2160_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5130_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5160_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2208_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2209_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2660_bitfields.h:
-
-Marlin\src\gcode\control\../../module/stepper/../../feature/tmc_util.h:

@@ -80,7 +80,7 @@
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
  Marlin\src\gcode\feature\runout\../../../inc/../HAL/./STM32F1/../../core/serial_hook.h \
  Marlin\src\gcode\feature\runout\../../../inc/../HAL/./STM32F1/../../core/serial_base.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\feature\e_parser.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\feature\e_parser.h \
  Marlin\src\gcode\feature\runout\../../../inc/../pins/pins.h \
  Marlin\src\gcode\feature\runout\../../../inc/../pins/stm32f1/pins_MKS_ROBIN_NANO.h \
  Marlin\src\gcode\feature\runout\../../../inc/../pins/pins_postprocess.h \
@@ -118,35 +118,6 @@
  Marlin\src\gcode\feature\runout\../../../feature/../module/../gcode/queue.h \
  Marlin\src\gcode\feature\runout\../../../feature/../module/stepper.h \
  Marlin\src\gcode\feature\runout\../../../feature/../module/stepper/indirection.h \
- Marlin\src\gcode\feature\runout\../../../feature/../module/stepper/trinamic.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/TMCStepper.h \
- Marlin\src\HAL\STM32F1/SPI.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/spi.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/spi.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/dma.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma_common.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h \
- .pio\libdeps\mks_robin_nano35\SoftwareSerialM/SoftwareSerial.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SERIAL_SWITCH.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC_platforms.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SW_SPI.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2130_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2160_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5130_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5160_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2208_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2209_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2660_bitfields.h \
- Marlin\src\gcode\feature\runout\../../../feature/../module/stepper/../../feature/tmc_util.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\lcd\marlinui.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\lcd\buttons.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\libs\buzzer.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\libs\circularqueue.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\lcd\tft_io/touch_calibration.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\lcd\tft_io/tft_io.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\hal\stm32f1\tft\tft_fsmc.h \
  Marlin\src\gcode\feature\runout\../../../feature/../feature/pause.h
 
 Marlin\src\gcode\feature\runout\../../../inc/MarlinConfig.h:
@@ -309,7 +280,7 @@ Marlin\src\gcode\feature\runout\../../../inc/../HAL/./STM32F1/../../core/serial_
 
 Marlin\src\gcode\feature\runout\../../../inc/../HAL/./STM32F1/../../core/serial_base.h:
 
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\feature\e_parser.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\feature\e_parser.h:
 
 Marlin\src\gcode\feature\runout\../../../inc/../pins/pins.h:
 
@@ -384,63 +355,5 @@ Marlin\src\gcode\feature\runout\../../../feature/../module/../gcode/queue.h:
 Marlin\src\gcode\feature\runout\../../../feature/../module/stepper.h:
 
 Marlin\src\gcode\feature\runout\../../../feature/../module/stepper/indirection.h:
-
-Marlin\src\gcode\feature\runout\../../../feature/../module/stepper/trinamic.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/TMCStepper.h:
-
-Marlin\src\HAL\STM32F1/SPI.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/spi.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/spi.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/dma.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma_common.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h:
-
-.pio\libdeps\mks_robin_nano35\SoftwareSerialM/SoftwareSerial.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SERIAL_SWITCH.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC_platforms.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SW_SPI.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2130_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2160_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5130_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5160_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2208_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2209_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2660_bitfields.h:
-
-Marlin\src\gcode\feature\runout\../../../feature/../module/stepper/../../feature/tmc_util.h:
-
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\lcd\marlinui.h:
-
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\lcd\buttons.h:
-
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\libs\buzzer.h:
-
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\libs\circularqueue.h:
-
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\lcd\tft_io/touch_calibration.h:
-
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\lcd\tft_io/tft_io.h:
-
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\hal\stm32f1\tft\tft_fsmc.h:
 
 Marlin\src\gcode\feature\runout\../../../feature/../feature/pause.h:

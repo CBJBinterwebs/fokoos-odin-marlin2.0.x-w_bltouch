@@ -80,7 +80,7 @@
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
  Marlin\src\gcode\feature\pause\../../../inc/../HAL/./STM32F1/../../core/serial_hook.h \
  Marlin\src\gcode\feature\pause\../../../inc/../HAL/./STM32F1/../../core/serial_base.h \
- Marlin\src\gcode\feature\pause\../../../inc/../HAL/./STM32F1/../../core/../feature/e_parser.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\feature\e_parser.h \
  Marlin\src\gcode\feature\pause\../../../inc/../pins/pins.h \
  Marlin\src\gcode\feature\pause\../../../inc/../pins/stm32f1/pins_MKS_ROBIN_NANO.h \
  Marlin\src\gcode\feature\pause\../../../inc/../pins/pins_postprocess.h \
@@ -262,7 +262,7 @@ Marlin\src\gcode\feature\pause\../../../inc/../HAL/./STM32F1/../../core/serial_h
 
 Marlin\src\gcode\feature\pause\../../../inc/../HAL/./STM32F1/../../core/serial_base.h:
 
-Marlin\src\gcode\feature\pause\../../../inc/../HAL/./STM32F1/../../core/../feature/e_parser.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\feature\e_parser.h:
 
 Marlin\src\gcode\feature\pause\../../../inc/../pins/pins.h:
 

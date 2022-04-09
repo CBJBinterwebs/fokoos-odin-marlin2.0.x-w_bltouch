@@ -107,49 +107,30 @@
  Marlin\src\gcode\bedlevel\../../module/../gcode/queue.h \
  Marlin\src\gcode\bedlevel\../../module/stepper.h \
  Marlin\src\gcode\bedlevel\../../module/stepper/indirection.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/trinamic.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/TMCStepper.h \
- Marlin\src\HAL\STM32F1/SPI.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/spi.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/spi.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/dma.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma_common.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
- C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h \
- .pio\libdeps\mks_robin_nano35\SoftwareSerialM/SoftwareSerial.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SERIAL_SWITCH.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC_platforms.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SW_SPI.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2130_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2160_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5130_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5160_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2208_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2209_bitfields.h \
- .pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2660_bitfields.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/tmc_util.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/marlinui.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/buttons.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../libs/buzzer.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../libs/circularqueue.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/cardreader.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdFile.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdBaseFile.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdFatConfig.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdVolume.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/Sd2Card_sdio.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdInfo.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/disk_io_driver.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdFatStructs.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/tft_io/touch_calibration.h \
- Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/tft_io/tft_io.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\hal\stm32f1\tft\tft_fsmc.h \
  Marlin\src\gcode\bedlevel\../../module/tool_change.h \
  Marlin\src\gcode\bedlevel\../../module/temperature.h \
  Marlin\src\gcode\bedlevel\../../module/thermistor/thermistors.h \
  Marlin\src\gcode\bedlevel\../../module/thermistor/thermistor_1.h \
- Marlin\src\gcode\bedlevel\../../module/../libs/autoreport.h
+ Marlin\src\gcode\bedlevel\../../module/../libs/autoreport.h \
+ Marlin\src\gcode\bedlevel\../../lcd/marlinui.h \
+ Marlin\src\gcode\bedlevel\../../lcd/buttons.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../libs/buzzer.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../libs/circularqueue.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/cardreader.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/SdFile.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/SdBaseFile.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/SdFatConfig.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/SdVolume.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/Sd2Card_sdio.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/SdInfo.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/disk_io_driver.h \
+ Marlin\src\gcode\bedlevel\../../lcd/../sd/SdFatStructs.h \
+ Marlin\src\gcode\bedlevel\../../lcd/tft_io/touch_calibration.h \
+ Marlin\src\gcode\bedlevel\../../lcd/tft_io/tft_io.h \
+ Marlin\src\gcode\bedlevel\../../lcd/tft_io/../../HAL/STM32F1/tft/tft_fsmc.h \
+ C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma.h \
+ C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/dma.h \
+ C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma_common.h
 
 Marlin\src\gcode\bedlevel\../../inc/MarlinConfig.h:
 
@@ -365,82 +346,6 @@ Marlin\src\gcode\bedlevel\../../module/stepper.h:
 
 Marlin\src\gcode\bedlevel\../../module/stepper/indirection.h:
 
-Marlin\src\gcode\bedlevel\../../module/stepper/trinamic.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/TMCStepper.h:
-
-Marlin\src\HAL\STM32F1/SPI.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/spi.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/spi.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/dma.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma_common.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h:
-
-C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h:
-
-.pio\libdeps\mks_robin_nano35\SoftwareSerialM/SoftwareSerial.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SERIAL_SWITCH.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC_platforms.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/SW_SPI.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2130_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2160_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5130_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC5160_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2208_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2209_bitfields.h:
-
-.pio\libdeps\mks_robin_nano35\TMCStepper\src/source/TMC2660_bitfields.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/tmc_util.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/marlinui.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/buttons.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../libs/buzzer.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../libs/circularqueue.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/cardreader.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdFile.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdBaseFile.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdFatConfig.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdVolume.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/Sd2Card_sdio.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdInfo.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/disk_io_driver.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/../sd/SdFatStructs.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/tft_io/touch_calibration.h:
-
-Marlin\src\gcode\bedlevel\../../module/stepper/../../feature/../lcd/tft_io/tft_io.h:
-
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\hal\stm32f1\tft\tft_fsmc.h:
-
 Marlin\src\gcode\bedlevel\../../module/tool_change.h:
 
 Marlin\src\gcode\bedlevel\../../module/temperature.h:
@@ -450,3 +355,41 @@ Marlin\src\gcode\bedlevel\../../module/thermistor/thermistors.h:
 Marlin\src\gcode\bedlevel\../../module/thermistor/thermistor_1.h:
 
 Marlin\src\gcode\bedlevel\../../module/../libs/autoreport.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/marlinui.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/buttons.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../libs/buzzer.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../libs/circularqueue.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/cardreader.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/SdFile.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/SdBaseFile.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/SdFatConfig.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/SdVolume.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/Sd2Card_sdio.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/SdInfo.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/disk_io_driver.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/../sd/SdFatStructs.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/tft_io/touch_calibration.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/tft_io/tft_io.h:
+
+Marlin\src\gcode\bedlevel\../../lcd/tft_io/../../HAL/STM32F1/tft/tft_fsmc.h:
+
+C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma.h:
+
+C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/dma.h:
+
+C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma_common.h:

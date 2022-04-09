@@ -17,7 +17,7 @@
  Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/MarlinConfig.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/HAL.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/HAL.h \
- Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/../shared/Marduino.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\hal\shared\marduino.h \
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/WString.h \
@@ -69,9 +69,9 @@
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/tone.h \
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103v/variant.h \
- Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/../shared/progmem.h \
- Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/../shared/math_32bit.h \
- Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/../shared/HAL_SPI.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\hal\shared\progmem.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\hal\shared\math_32bit.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\hal\shared\hal_spi.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/fastio.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/watchdog.h \
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h \
@@ -80,9 +80,9 @@
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h \
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h \
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\core\serial_hook.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\core\serial_base.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\feature\e_parser.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\core\serial_hook.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\core\serial_base.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\feature\e_parser.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../pins/pins.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../pins/stm32f1/pins_MKS_ROBIN_NANO.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../pins/pins_postprocess.h \
@@ -363,7 +363,7 @@ Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/HAL.h:
 
 Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/HAL.h:
 
-Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/../shared/Marduino.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\hal\shared\marduino.h:
 
 C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h:
 
@@ -467,11 +467,11 @@ C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103v/variant.h:
 
-Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/../shared/progmem.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\hal\shared\progmem.h:
 
-Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/../shared/math_32bit.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\hal\shared\math_32bit.h:
 
-Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/../shared/HAL_SPI.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\hal\shared\hal_spi.h:
 
 Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../HAL/./STM32F1/fastio.h:
 
@@ -489,11 +489,11 @@ C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h:
 
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\core\serial_hook.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\core\serial_hook.h:
 
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\core\serial_base.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\core\serial_base.h:
 
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\feature\e_parser.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\feature\e_parser.h:
 
 Marlin\src\lcd\extui\lib\mks_ui\../../../tft_io/../../inc/../pins/pins.h:
 

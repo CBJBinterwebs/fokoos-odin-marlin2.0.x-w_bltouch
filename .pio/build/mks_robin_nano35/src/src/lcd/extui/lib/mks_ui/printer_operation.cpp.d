@@ -239,7 +239,7 @@
  C:\Users\coleb\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../../inc/../HAL/./STM32F1/../../core/serial_hook.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../../inc/../HAL/./STM32F1/../../core/serial_base.h \
- c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\feature\e_parser.h \
+ c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\feature\e_parser.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../../inc/../pins/pins.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../../inc/../pins/stm32f1/pins_MKS_ROBIN_NANO.h \
  Marlin\src\lcd\extui\lib\mks_ui\../../../../inc/../pins/pins_postprocess.h \
@@ -810,7 +810,7 @@ Marlin\src\lcd\extui\lib\mks_ui\../../../../inc/../HAL/./STM32F1/../../core/seri
 
 Marlin\src\lcd\extui\lib\mks_ui\../../../../inc/../HAL/./STM32F1/../../core/serial_base.h:
 
-c:\users\coleb\downloads\compressed\odin-5f3-main\odin-5f3-main\marlin\src\feature\e_parser.h:
+c:\users\coleb\source\repos\fokoos-odin-marlin2.0.x-w_bltouch\marlin\src\feature\e_parser.h:
 
 Marlin\src\lcd\extui\lib\mks_ui\../../../../inc/../pins/pins.h:
 

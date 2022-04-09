@@ -5,7 +5,8 @@ Update Nov 11, 2021:  Updated firmware to enable dual-z steppers.  This also ena
 
 Update Dec 15, 2021:  Updated firmware to include two corner-leveling options in the 'more menu; these include manual corner leveling with and without homing axes first.  The temperature of the bed and nozzle are now displayed on many more screens.  Added 'z min probe repeatability test' (M48).  Added MKS Robin / tft / lvglui specific filament runout parameters.  Tried to test it with Octoprint, but it didn't detect the runout (I think Octoprint needs a seperate physical sensor).  Will test soon on print from SD.
 
-Update Mar 9, 2022:  -add emergency stop button on main screen to stop prints from octoprint when you dont have the time to pull-up the web ui
+Update Mar 9, 2022:
+	-add emergency stop button on main screen to stop prints from octoprint when you dont have the time to pull-up the web ui
 	-change probe points in mesh grid from 6x6 to 5x5
 	-increase homing/probing travel speed
 	-enable sw_mode for bltouch as rec. by ANTClabs
@@ -18,6 +19,13 @@ Update Mar 9, 2022:  -add emergency stop button on main screen to stop prints fr
 	-discovered that you cannot enable advanced pause feature.  it causes random pauses
 	-added all project files so people can edit them as they please
 	-added two different pre-compiled firmware.  one with normal bed size, one with 230mm 'X' bed size because I was getting weirdness on the right edge of my bed meshes.  look in folder 'pre-compiled', with subfolders corresponding to desired bed size
+
+Update Apr 8, 2022:
+	-change stepper drivers to TMC2209_STANDALONE, which is what MKS have set for this board in their firmware file (https://github.com/makerbase-mks/Mks-Robin-Nano-Marlin2.0-Firmware/blob/master/Marlin/Configuration.h)
+	-change DEFAULT_AXIS_STEPS_PER_UNIT for extruder from '94' to '93'.
+	-enabled EXTRAPOLATE_BEYOND_GRID again
+	-enabled bilinear subdivision
+	-experimented with linear advance, but it is not possible on TMC2209 on Robin Nano V2 without first modifying the hardware.  DO NOT ENABLE!
 
 # How to use:
 Remove previous firmware files from your microSD card.
