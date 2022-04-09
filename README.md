@@ -27,7 +27,7 @@ Update Apr 8, 2022:<br/>
 	-enabled bilinear subdivision<br/>
 	-experimented with linear advance, but it is not possible on TMC2209 on Robin Nano V2 without first modifying the hardware.  DO NOT ENABLE!<br/>
 
-Update Apr 8, 2022:<br/>
+Update Apr 9, 2022:<br/>
 	-removed heatsinks from my stepper drivers, visually confirmed they are twotrees 2208 v3.  Change firmware to 2208_standalone.<br/>
 
 # How to use:
