@@ -1,9 +1,11 @@
 # fokoos-odin-marlin2.0.x-w_bltouch
-The stock firmware for Fokoos Odin 5F3, but with BLTouch and different start screen.
+The stock firmware for Fokoos Odin 5F3, but with BLTouch and different start screen.<br/>
 
-Update Nov 11, 2021:  Updated firmware to enable dual-z steppers.  This also enables use of G34 gcode to allow automatic alignment of z-steppers which aids in leveling the bed.  It outputs values to the terminal as well.
+! IMPORTANT ! Update Sept 2, 2022:  I have not used my printer in probably 6 months so this is likely outdated.  Additionally, I was using exclusively OctoPrint but have become aware with issues with printing when printing from SD with this firmware.  I do not have time to work on this right now, unfortunately.  I would like to apologize if you had used this firmware previously for printing from SD card and it did not work for you.  I hope to address the problems as soon as I can.  Thank you for your time.<br/>
 
-Update Dec 15, 2021:  Updated firmware to include two corner-leveling options in the 'more menu; these include manual corner leveling with and without homing axes first.  The temperature of the bed and nozzle are now displayed on many more screens.  Added 'z min probe repeatability test' (M48).  Added MKS Robin / tft / lvglui specific filament runout parameters.  Tried to test it with Octoprint, but it didn't detect the runout (I think Octoprint needs a seperate physical sensor).  Will test soon on print from SD.
+Update Nov 11, 2021:  Updated firmware to enable dual-z steppers.  This also enables use of G34 gcode to allow automatic alignment of z-steppers which aids in leveling the bed.  It outputs values to the terminal as well.<br/>
+
+Update Dec 15, 2021:  Updated firmware to include two corner-leveling options in the 'more menu; these include manual corner leveling with and without homing axes first.  The temperature of the bed and nozzle are now displayed on many more screens.  Added 'z min probe repeatability test' (M48).  Added MKS Robin / tft / lvglui specific filament runout parameters.  Tried to test it with Octoprint, but it didn't detect the runout (I think Octoprint needs a seperate physical sensor).  Will test soon on print from SD.<br/>
 
 Update Mar 9, 2022:<br/>
 	-add emergency stop button on main screen to stop prints from octoprint when you dont have the time to pull-up the web ui<br/>
